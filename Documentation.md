@@ -6,6 +6,7 @@
 def calculate_sma(prices: List[float], period: int) -> List[Optional[float]]:
 
 Что делает: Создает сглаженную линию на графике
+
 Математика: SMA = (цена1 + цена2 + ... + ценаN) / N
 
 На графике: Синяя линия поверх свечей
